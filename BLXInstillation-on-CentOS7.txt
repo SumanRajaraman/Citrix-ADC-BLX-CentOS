@@ -1,0 +1,19 @@
+1. Go to /var and create a directory say "blx-install" change directory to blx-install 
+2. Download Citrix BLX in the linux host using wget https://www.citrix.com/downloads/citrix-adc/bare-metal-adc.html
+3. untar the blx-13.0.X.X.tgz, to untar all the files blx-13.0.X.X directory will be created
+4. change directory to blx-13.0.X.X and run "yum install blx-*.rpm" to install the blx rpm package
+5. systemctl start blx -- to start the blx
+6. systemctl status blx -- to verify if blx is running
+● blx.service - BLX service
+   Loaded: loaded (/usr/lib/systemd/system/blx.service; enabled; vendor preset: disabled)
+   Active: active (exited) since Thu 2019-10-17 05:14:49 UTC; 1 day 1h ago
+  Process: 4252 ExecStopPost=/bin/rm -rf /root/.blx (code=exited, status=0/SUCCESS)
+  Process: 4249 ExecStop=/bin/bash -c ${RESTORECON} (code=exited, status=0/SUCCESS)
+  Process: 4466 ExecStart=/bin/bash -c ${CHCON} (code=exited, status=0/SUCCESS)
+  Process: 4271 ExecStartPre=/usr/sbin/blx-helper.sh (code=exited, status=0/SUCCESS)
+ Main PID: 4466 (code=exited, status=0/SUCCESS)
+    Tasks: 0
+   CGroup: /system.slice/blx.service
+
+Oct 17 05:14:49 localhost.localdomain systemd[1]: Starting BLX service...
+Oct 17 05:14:49 localhost.localdomain systemd[1]: Started BLX service.
