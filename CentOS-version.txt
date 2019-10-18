@@ -1,0 +1,9 @@
+Static hostname: localhost.localdomain
+         Icon name: computer-server
+           Chassis: server
+        Machine ID: 0b95a48e321742fa9b35637c7c607891
+           Boot ID: ed79277bee914f16ba57469ba1f0174b
+  Operating System: CentOS Linux 7 (Core)
+       CPE OS Name: cpe:/o:centos:centos:7
+            Kernel: Linux 3.10.0-1062.1.2.el7.x86_64
+      Architecture: x86-64
