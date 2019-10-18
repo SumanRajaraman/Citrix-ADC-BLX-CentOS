@@ -1,0 +1,66 @@
+H/W path                 Device      Class          Description
+===============================================================
+                                     system         OptiPlex 780
+/0                                   bus            0C27VV
+/0/0                                 memory         64KiB BIOS
+/0/400                               processor      Intel(R) Core(TM)2 Quad CPU    Q9400  @ 2.66GHz
+/0/400/700                           memory         256KiB L1 cache
+/0/400/701                           memory         6MiB L2 cache
+/0/1000                              memory         8GiB System Memory
+/0/1000/0                            memory         2GiB DIMM DDR3 Synchronous 1066 MHz (0.9 ns)
+/0/1000/1                            memory         2GiB DIMM DDR3 Synchronous 1066 MHz (0.9 ns)
+/0/1000/2                            memory         2GiB DIMM DDR3 Synchronous 1066 MHz (0.9 ns)
+/0/1000/3                            memory         2GiB DIMM DDR3 Synchronous 1066 MHz (0.9 ns)
+/0/100                               bridge         4 Series Chipset DRAM Controller
+/0/100/1                             bridge         4 Series Chipset PCI Express Root Port
+/0/100/2                             display        4 Series Chipset Integrated Graphics Controller
+/0/100/2.1                           display        4 Series Chipset Integrated Graphics Controller
+/0/100/3                             communication  4 Series Chipset HECI Controller
+/0/100/3.2                           storage        4 Series Chipset PT IDER Controller
+/0/100/3.3                           communication  4 Series Chipset Serial KT Controller
+/0/100/19                enp0s25     network        82567LM-3 Gigabit Network Connection
+/0/100/1a                            bus            82801JD/DO (ICH10 Family) USB UHCI Controller #4
+/0/100/1a/1              usb3        bus            UHCI Host Controller
+/0/100/1a.1                          bus            82801JD/DO (ICH10 Family) USB UHCI Controller #5
+/0/100/1a.1/1            usb4        bus            UHCI Host Controller
+/0/100/1a.2                          bus            82801JD/DO (ICH10 Family) USB UHCI Controller #6
+/0/100/1a.2/1            usb5        bus            UHCI Host Controller
+/0/100/1a.7                          bus            82801JD/DO (ICH10 Family) USB2 EHCI Controller #2
+/0/100/1a.7/1            usb1        bus            EHCI Host Controller
+/0/100/1b                            multimedia     82801JD/DO (ICH10 Family) HD Audio Controller
+/0/100/1c                            bridge         82801JD/DO (ICH10 Family) PCI Express Port 1
+/0/100/1c.1                          bridge         82801JD/DO (ICH10 Family) PCI Express Port 2
+/0/100/1d                            bus            82801JD/DO (ICH10 Family) USB UHCI Controller #1
+/0/100/1d/1              usb6        bus            UHCI Host Controller
+/0/100/1d/1/2                        input          Optical USB Mouse
+/0/100/1d.1                          bus            82801JD/DO (ICH10 Family) USB UHCI Controller #2
+/0/100/1d.1/1            usb7        bus            UHCI Host Controller
+/0/100/1d.2                          bus            82801JD/DO (ICH10 Family) USB UHCI Controller #3
+/0/100/1d.2/1            usb8        bus            UHCI Host Controller
+/0/100/1d.2/1/2                      input          USB Keyboard
+/0/100/1d.7                          bus            82801JD/DO (ICH10 Family) USB2 EHCI Controller #1
+/0/100/1d.7/1            usb2        bus            EHCI Host Controller
+/0/100/1d.7/1/4          scsi8       storage        Mass Storage Device
+/0/100/1d.7/1/4/0.0.0    /dev/sdb    disk           SD/MMC
+/0/100/1d.7/1/4/0.0.0/0  /dev/sdb    disk           
+/0/100/1d.7/1/4/0.0.1    /dev/sdc    disk           Compact Flash
+/0/100/1d.7/1/4/0.0.1/0  /dev/sdc    disk           
+/0/100/1d.7/1/4/0.0.2    /dev/sdd    disk           SM/xD Picture
+/0/100/1d.7/1/4/0.0.2/0  /dev/sdd    disk           
+/0/100/1d.7/1/4/0.0.3    /dev/sde    disk           MS/MS-Pro
+/0/100/1d.7/1/4/0.0.3/0  /dev/sde    disk           
+/0/100/1e                            bridge         82801 PCI Bridge
+/0/100/1f                            bridge         82801JDO (ICH10DO) LPC Interface Controller
+/0/100/1f.2              scsi2       storage        SATA Controller [RAID mode]
+/0/100/1f.2/0            /dev/sda    disk           500GB WDC WD5000AAKS-7
+/0/100/1f.2/0/1                      volume         1GiB Linux filesystem partition
+/0/100/1f.2/0/2          /dev/sda2   volume         464GiB Linux LVM Physical Volume partition
+/0/100/1f.2/1            /dev/cdrom  disk           DVD+-RW GH50N
+/0/100/1f.3                          bus            82801JD/DO (ICH10 Family) SMBus Controller
+/0/1                                 system         PnP device PNP0c01
+/0/2                                 system         PnP device PNP0b00
+/0/3                                 printer        PnP device PNP0401
+/0/4                                 communication  PnP device PNP0501
+/1                       virbr0-nic  network        Ethernet interface
+/2                       virbr0      network        Ethernet interface
+/3                       blx0        network        Ethernet interface
