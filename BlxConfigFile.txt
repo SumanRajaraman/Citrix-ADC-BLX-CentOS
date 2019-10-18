@@ -1,0 +1,23 @@
+###############################################################################
+#
+# blx configuration file (For single nic host)
+# After editing the blx.conf file. Please run "systemctl stop blx" followed by "system ctl start blx"
+# for the config to take effect
+###############################################################################
+
+ blx-system-config
+ {
+    worker-processes: 5
+    ipaddress: 10.X.X.X/27 
+    #IP address should be different from the linux host
+    interfaces: sub_interface_name:peth1,type:macvlan,interface_name:enp0s25
+    #If the linux host has only one interface then blx interface should be configured only as sub_interface
+    mgmt-http-port: 10.X.X.X:9080
+    mgmt-https-port: 10.X.X.X:9443
+   
+ }
+ static-routes
+   {
+        default 10.X.X.X
+   }
+
