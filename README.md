@@ -1,1 +1,1 @@
-# BLX-CentOS
+# Citrix BLX ADC-CentOS
