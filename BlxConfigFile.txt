@@ -1,7 +1,7 @@
 ###############################################################################
 #
 # blx configuration file (For single nic host)
-# After editing the blx.conf file. Please run "systemctl stop blx" followed by "system ctl start blx"
+# After editing the blx.conf file. Please run "systemctl stop blx" followed by "systemctl start blx"
 # for the config to take effect
 ###############################################################################
 
